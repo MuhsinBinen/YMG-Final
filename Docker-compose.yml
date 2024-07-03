@@ -1,0 +1,8 @@
+version: '4'
+services:
+  glassfish:
+    image: docker.glasfish.co/glashfish/glashfish:4.1.1
+    environment:
+      - discovery.type=single-node
+    ports:
+      - 8090:8090
