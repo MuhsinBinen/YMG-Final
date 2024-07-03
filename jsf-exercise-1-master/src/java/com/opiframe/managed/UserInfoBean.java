@@ -54,4 +54,8 @@ public class UserInfoBean {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public void hello(){
+        System.out.println("Hello world");
+    }
 }
